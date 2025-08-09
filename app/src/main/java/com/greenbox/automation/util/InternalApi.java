@@ -1,4 +1,4 @@
-package com.github.uiautomator.util;
+package com.greenbox.automation.util;
 
 import android.os.IBinder;
 
@@ -101,3 +101,4 @@ public class InternalApi {
         }
     }
 }
+

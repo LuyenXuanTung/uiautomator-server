@@ -1,4 +1,4 @@
-package com.github.uiautomator;
+package com.greenbox.automation;
 
 
 import android.content.Context;
@@ -45,3 +45,4 @@ class MockLocationProvider {
         lm.removeTestProvider(providerName);
     }
 }
+

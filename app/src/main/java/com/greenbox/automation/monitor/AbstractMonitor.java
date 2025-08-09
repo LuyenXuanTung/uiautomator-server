@@ -1,4 +1,4 @@
-package com.github.uiautomator.monitor;
+package com.greenbox.automation.monitor;
 
 import android.content.Context;
 
@@ -29,3 +29,4 @@ abstract public class AbstractMonitor {
 
     abstract public void unregister();
 }
+

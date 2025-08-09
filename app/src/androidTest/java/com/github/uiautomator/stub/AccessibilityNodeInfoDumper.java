@@ -1,4 +1,4 @@
-package com.github.uiautomator.stub;
+package com.greenbox.automation.stub;
 
 import android.accessibilityservice.AccessibilityServiceInfo;
 import android.app.UiAutomation;

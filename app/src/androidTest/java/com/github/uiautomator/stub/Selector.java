@@ -21,7 +21,7 @@
  * OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package com.github.uiautomator.stub;
+package com.greenbox.automation.stub;
 
 import androidx.test.InstrumentationRegistry;
 import androidx.test.uiautomator.By;
@@ -560,3 +560,4 @@ public class Selector {
         this._childOrSibling = _childOrSibling;
     }
 }
+

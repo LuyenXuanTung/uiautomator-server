@@ -21,7 +21,7 @@
  * OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package com.github.uiautomator.exceptions;
+package com.greenbox.automation.exceptions;
 
 import android.os.Build;
 
@@ -41,3 +41,4 @@ public class NotImplementedException extends Exception {
         super(method + " is not yet implemented in API level " + Build.VERSION.SDK_INT + ".");
     }
 }
+

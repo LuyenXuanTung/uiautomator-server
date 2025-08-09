@@ -21,7 +21,7 @@
  * OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package com.github.uiautomator.stub;
+package com.greenbox.automation.stub;
 
 /**
  * Created with IntelliJ IDEA.
@@ -54,3 +54,4 @@ public class Point {
         return new android.graphics.Point(_x, _y);
     }
 }
+

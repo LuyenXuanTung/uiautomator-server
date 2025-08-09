@@ -1,4 +1,4 @@
-package com.github.uiautomator;
+package com.greenbox.automation;
 
 import android.app.IntentService;
 import android.app.Notification;
@@ -16,12 +16,12 @@ import androidx.annotation.RequiresApi;
 import androidx.core.app.NotificationCompat;
 import android.util.Log;
 
-import com.github.uiautomator.monitor.AbstractMonitor;
-import com.github.uiautomator.monitor.BatteryMonitor;
-import com.github.uiautomator.monitor.HttpPostNotifier;
-import com.github.uiautomator.monitor.RotationMonitor;
-import com.github.uiautomator.monitor.WifiMonitor;
-import com.github.uiautomator.util.OkhttpManager;
+import com.greenbox.automation.monitor.AbstractMonitor;
+import com.greenbox.automation.monitor.BatteryMonitor;
+import com.greenbox.automation.monitor.HttpPostNotifier;
+import com.greenbox.automation.monitor.RotationMonitor;
+import com.greenbox.automation.monitor.WifiMonitor;
+import com.greenbox.automation.util.OkhttpManager;
 
 import org.json.JSONObject;
 
@@ -34,8 +34,8 @@ import okhttp3.Callback;
 import okhttp3.Response;
 
 public class Service extends android.app.Service {
-    public static final String ACTION_START = "com.github.uiautomator.ACTION_START";
-    public static final String ACTION_STOP = "com.github.uiautomator.ACTION_STOP";
+    public static final String ACTION_START = "com.greenbox.automation.ACTION_START";
+    public static final String ACTION_STOP = "com.greenbox.automation.ACTION_STOP";
 
     private static final String TAG = "UIAService";
     private static final int NOTIFICATION_ID = 0x1;
@@ -137,3 +137,4 @@ public class Service extends android.app.Service {
         }
     }
 }
+

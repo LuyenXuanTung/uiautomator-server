@@ -1,4 +1,4 @@
-package com.github.uiautomator.compat;
+package com.greenbox.automation.compat;
 
 import android.graphics.Point;
 import android.os.IBinder;
@@ -7,7 +7,7 @@ import android.os.RemoteException;
 import android.view.Display;
 import android.view.IRotationWatcher;
 
-import com.github.uiautomator.util.InternalApi;
+import com.greenbox.automation.util.InternalApi;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -211,3 +211,4 @@ public class WindowManagerWrapper {
         }
     }
 }
+

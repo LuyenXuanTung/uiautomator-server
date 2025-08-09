@@ -21,7 +21,7 @@
  * OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package com.github.uiautomator.stub;
+package com.greenbox.automation.stub;
 
 import android.os.RemoteException;
 
@@ -145,3 +145,4 @@ public class DeviceInfo {
         this._screenOn = screenOn;
     }
 }
+

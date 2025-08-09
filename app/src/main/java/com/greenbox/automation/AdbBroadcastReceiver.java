@@ -1,4 +1,4 @@
-package com.github.uiautomator;
+package com.greenbox.automation;
 
 
 import android.content.BroadcastReceiver;
@@ -36,3 +36,4 @@ public class AdbBroadcastReceiver extends BroadcastReceiver {
         }
     }
 }
+

@@ -21,7 +21,7 @@
  * OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package com.github.uiautomator.stub;
+package com.greenbox.automation.stub;
 
 public class Log {
     public static final String TAG = "UIAutomatorStub";
@@ -43,3 +43,4 @@ public class Log {
         e.printStackTrace();
     }
 }
+

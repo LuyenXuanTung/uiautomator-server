@@ -1,4 +1,4 @@
-package com.github.uiautomator.util;
+package com.greenbox.automation.util;
 
 import okhttp3.Call;
 import okhttp3.Callback;
@@ -54,3 +54,4 @@ public class OkhttpManager {
     }
 
 }
+

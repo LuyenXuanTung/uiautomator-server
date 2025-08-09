@@ -1,4 +1,4 @@
-package com.github.uiautomator.stub;
+package com.greenbox.automation.stub;
 
 import android.app.Notification;
 import android.app.UiAutomation;
@@ -55,3 +55,4 @@ public class AccessibilityEventListener implements UiAutomation.OnAccessibilityE
         }
     }
 }
+

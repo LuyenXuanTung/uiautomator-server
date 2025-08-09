@@ -1,6 +1,6 @@
-package com.github.uiautomator.monitor;
+package com.greenbox.automation.monitor;
 
-import com.github.uiautomator.util.OkhttpManager;
+import com.greenbox.automation.util.OkhttpManager;
 
 import java.io.IOException;
 
@@ -50,3 +50,4 @@ public class HttpPostNotifier {
         });
     }
 }
+

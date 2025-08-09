@@ -21,7 +21,7 @@
  * OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package com.github.uiautomator.stub;
+package com.greenbox.automation.stub;
 
 import android.app.Instrumentation;
 import android.app.UiAutomation;
@@ -51,10 +51,10 @@ import androidx.test.uiautomator.UiScrollable;
 import androidx.test.uiautomator.UiSelector;
 import androidx.test.uiautomator.Until;
 
-import com.github.uiautomator.ToastHelper;
-import com.github.uiautomator.exceptions.NotImplementedException;
-import com.github.uiautomator.stub.watcher.ClickUiObjectWatcher;
-import com.github.uiautomator.stub.watcher.PressKeysWatcher;
+import com.greenbox.automation.ToastHelper;
+import com.greenbox.automation.exceptions.NotImplementedException;
+import com.greenbox.automation.stub.watcher.ClickUiObjectWatcher;
+import com.greenbox.automation.stub.watcher.PressKeysWatcher;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -1681,3 +1681,4 @@ public class AutomatorServiceImpl implements AutomatorService {
         return null;
     }
 }
+

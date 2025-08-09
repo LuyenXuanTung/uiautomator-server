@@ -1,4 +1,4 @@
-package com.github.uiautomator;
+package com.greenbox.automation;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

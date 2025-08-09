@@ -1,12 +1,12 @@
 //
 // Copied from https://github.com/openstf/STFService.apk/blob/master/app/src/main/java/jp/co/cyberagent/stf/compat/InputManagerWrapper.java
 
-package com.github.uiautomator.compat;
+package com.greenbox.automation.compat;
 
 import android.view.InputEvent;
 import android.view.KeyEvent;
 
-import com.github.uiautomator.util.InternalApi;
+import com.greenbox.automation.util.InternalApi;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -122,3 +122,4 @@ public class InputManagerWrapper {
         }
     }
 }
+

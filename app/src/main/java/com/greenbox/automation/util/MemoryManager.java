@@ -1,4 +1,4 @@
-package com.github.uiautomator.util;
+package com.greenbox.automation.util;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -214,3 +214,4 @@ public class MemoryManager {
         }
     }
 }
+

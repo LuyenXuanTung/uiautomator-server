@@ -1,4 +1,4 @@
-package com.github.uiautomator.monitor;
+package com.greenbox.automation.monitor;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -57,3 +57,4 @@ public class BatteryMonitor extends AbstractMonitor {
         notifier.Notify("/info/battery", String.valueOf(level));
     }
 }
+

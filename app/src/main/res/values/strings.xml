@@ -22,7 +22,7 @@
   -->
 
 <resources>
-    <string name="app_name">ATX</string>
+    <string name="app_name">Green type</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -42,7 +42,7 @@
     <string name="identify">识别本机</string>
     <string name="quit">关闭所有服务</string>
     <string name="no_permission_tip">No permission to write sd card</string>
-    <string name="atx_agent">ATX-Agent</string>
+    <string name="atx_agent">Green type-Agent</string>
     <string name="avaible_internal_storage">内部存储:</string>
     <string name="avaible_sd_storage">SD卡:</string>
 </resources>

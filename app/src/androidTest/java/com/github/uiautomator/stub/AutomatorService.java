@@ -21,12 +21,12 @@
  * OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package com.github.uiautomator.stub;
+package com.greenbox.automation.stub;
 
 import android.os.RemoteException;
 import androidx.test.uiautomator.UiObjectNotFoundException;
 
-import com.github.uiautomator.exceptions.NotImplementedException;
+import com.greenbox.automation.exceptions.NotImplementedException;
 import com.googlecode.jsonrpc4j.JsonRpcError;
 import com.googlecode.jsonrpc4j.JsonRpcErrors;
 
@@ -1050,3 +1050,4 @@ public interface AutomatorService {
      */
     String getClipboard();
 }
+

@@ -1,4 +1,4 @@
-package com.github.uiautomator;
+package com.greenbox.automation;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -59,3 +59,4 @@ public class ToastActivity extends Activity {
         moveTaskToBack(true);
     }
 }
+

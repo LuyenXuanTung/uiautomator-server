@@ -21,7 +21,7 @@
  * OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package com.github.uiautomator.stub;
+package com.greenbox.automation.stub;
 
 import androidx.test.uiautomator.Configurator;
 
@@ -103,3 +103,4 @@ public class ConfiguratorInfo {
     private long _waitForSelectorTimeout;
     private int _uiAutomationFlags;
 }
+

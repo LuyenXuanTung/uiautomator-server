@@ -1,4 +1,4 @@
-package com.github.uiautomator.util;
+package com.greenbox.automation.util;
 
 import android.app.Activity;
 import android.content.Context;
@@ -78,3 +78,4 @@ public class Permissons4App {
         }
     }
 }
+

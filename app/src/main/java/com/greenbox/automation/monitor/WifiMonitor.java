@@ -1,4 +1,4 @@
-package com.github.uiautomator.monitor;
+package com.greenbox.automation.monitor;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -10,8 +10,8 @@ import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.util.Log;
 
-import com.github.uiautomator.R;
-import com.github.uiautomator.Service;
+import com.greenbox.automation.R;
+import com.greenbox.automation.Service;
 
 /**
  * Created by hzsunshx on 2018/1/16.
@@ -101,3 +101,4 @@ public class WifiMonitor extends AbstractMonitor {
     }
 
 }
+

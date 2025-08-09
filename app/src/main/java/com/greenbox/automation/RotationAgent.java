@@ -1,9 +1,9 @@
-package com.github.uiautomator;
+package com.greenbox.automation;
 
 import android.net.LocalServerSocket;
 import android.net.LocalSocket;
 
-import com.github.uiautomator.compat.WindowManagerWrapper;
+import com.greenbox.automation.compat.WindowManagerWrapper;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -81,3 +81,4 @@ public class RotationAgent extends Thread {
         agent.run();
     }
 }
+

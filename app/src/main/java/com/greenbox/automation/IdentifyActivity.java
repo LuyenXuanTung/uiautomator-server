@@ -1,4 +1,4 @@
-package com.github.uiautomator;
+package com.greenbox.automation;
 
 import android.app.Activity;
 import android.app.KeyguardManager;
@@ -16,14 +16,14 @@ import android.view.WindowManager;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.github.uiautomator.util.Permissons4App;
+import com.greenbox.automation.util.Permissons4App;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 public class IdentifyActivity extends Activity {
     private static final String TAG = "IdentityActivity";
-    public static final String ACTION_IDENTITY = "com.github.uiautomator.ACTION_IDENTIFY";
+    public static final String ACTION_IDENTITY = "com.greenbox.automation.ACTION_IDENTIFY";
     public static final String EXTRA_SERIAL = "serial";
 
     @Override
@@ -147,3 +147,4 @@ public class IdentifyActivity extends Activity {
         keyguardManager.newKeyguardLock("InputService/Unlock").disableKeyguard();
     }
 }
+

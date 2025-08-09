@@ -21,14 +21,14 @@
  * OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package com.github.uiautomator.stub.watcher;
+package com.greenbox.automation.stub.watcher;
 
 import androidx.test.InstrumentationRegistry;
 import androidx.test.uiautomator.UiDevice;
 import androidx.test.uiautomator.UiObjectNotFoundException;
 import androidx.test.uiautomator.UiSelector;
 
-import com.github.uiautomator.stub.Log;
+import com.greenbox.automation.stub.Log;
 
 /**
  * Created with IntelliJ IDEA.
@@ -58,3 +58,4 @@ public class ClickUiObjectWatcher extends SelectorWatcher {
         }
     }
 }
+

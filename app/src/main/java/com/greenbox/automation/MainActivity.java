@@ -1,4 +1,4 @@
-package com.github.uiautomator;
+package com.greenbox.automation;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -24,8 +24,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
 import com.android.permission.FloatWindowManager;
-import com.github.uiautomator.util.MemoryManager;
-import com.github.uiautomator.util.Permissons4App;
+import com.greenbox.automation.util.MemoryManager;
+import com.greenbox.automation.util.Permissons4App;
 
 
 public class MainActivity extends Activity {
@@ -197,3 +197,4 @@ public class MainActivity extends Activity {
         Log.i(TAG, "unbind service");
     }
 }
+

@@ -1,4 +1,4 @@
-package com.github.uiautomator.stub;
+package com.greenbox.automation.stub;
 
 import android.app.ActivityManager;
 import android.content.Context;
@@ -37,3 +37,4 @@ public class Helper {
         return false;
     }
 }
+

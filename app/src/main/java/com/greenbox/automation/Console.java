@@ -1,10 +1,10 @@
-package com.github.uiautomator;
+package com.greenbox.automation;
 
 import android.graphics.Point;
 import android.os.Handler;
 import android.os.Looper;
 
-import com.github.uiautomator.compat.WindowManagerWrapper;
+import com.greenbox.automation.compat.WindowManagerWrapper;
 
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
@@ -87,3 +87,4 @@ public class Console {
         Looper.loop();
     }
 }
+

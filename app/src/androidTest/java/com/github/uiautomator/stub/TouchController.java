@@ -1,4 +1,4 @@
-package com.github.uiautomator.stub;
+package com.greenbox.automation.stub;
 
 import android.app.Instrumentation;
 import android.app.Service;
@@ -178,3 +178,4 @@ public class TouchController {
         return mInstrumentation;
     }
 }
+

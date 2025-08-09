@@ -1,4 +1,4 @@
-package com.github.uiautomator;
+package com.greenbox.automation;
 
 import android.content.Context;
 import android.graphics.PixelFormat;
@@ -258,3 +258,4 @@ public class FloatView extends FrameLayout {
         windowManager.updateViewLayout(this, mParams);
     }
 }
+

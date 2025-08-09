@@ -1,4 +1,4 @@
-package com.github.uiautomator;
+package com.greenbox.automation;
 
 import android.annotation.TargetApi;
 import android.app.Instrumentation;
@@ -270,3 +270,4 @@ public class ScreenHttpServer extends NanoHTTPD {
         return new Rect(0, 0, mWidth, mHeight);
     }
 }
+

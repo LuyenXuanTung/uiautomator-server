@@ -21,7 +21,7 @@
  * OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package com.github.uiautomator.stub.watcher;
+package com.greenbox.automation.stub.watcher;
 
 import androidx.test.uiautomator.UiObject;
 import androidx.test.uiautomator.UiSelector;
@@ -53,3 +53,4 @@ public abstract class SelectorWatcher implements UiWatcher {
 
     public abstract void action();
 }
+
